@@ -21,29 +21,21 @@ LL L ,R ;
 
 int main(){
     cin >>m >>cmd >>L >>R ;
+    bound = cmd=='u' ? (1LL<<m)-1 : (1LL<<(m-1))-1 ;
     LLU ans = (LLU)(R-L+1)*(LLU)(R-L+1) ;
-    if (cmd=='s'){
-        if (L<0 && R<0 )L=-L ,R=-R ,swap(R,L) ;
-        if (L>=0){
-            bound = (1LL<<(m-1))-1 ;
-            ans -= sol(0,R,R) ;
-            if (L>0)ans += sol(0,L-1,R)*2 ;
-            if (L>0)ans -= sol(0,L-1,L-1) ;
-        }
-        else {
-            bound = (1LL<<(m-1))-1 ;
-            ans -= sol(0,R,R) ;
-            ans -= sol(0,-L,-L) ;
-            bound++ ;
-            ans -= sol(0,-L,R)*2 ;
-            ans += (R-L+1)*2+1 ;
-        }
-    }
-    else { //cmd=='u'
-        bound = (1LL<<m)-1 ;
+    if (L<0 && R<0 )L=-L ,R=-R ,swap(R,L) ;
+
+    if (L>0){
         ans -= sol(0,R,R) ;
         if (L>0)ans += sol(0,L-1,R)*2 ;
         if (L>0)ans -= sol(0,L-1,L-1) ;
+    }
+    else {
+        ans -= sol(0,R,R) ;
+        ans -= sol(0,-L,-L) ;
+        bound++ ;
+        ans -= sol(0,-L,R)*2 ;
+        ans += (R-L+1)*2+1 ;
     }
     cout << ans <<endl ;
 }
