@@ -2,4 +2,4 @@
 
 ACM-ICPC Live Archive 
 
-[an example](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41 "2040")
+[2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
