@@ -1,4 +1,4 @@
-## Devide and Conqure problem 
+## Divide and Conquer problem 
 
 ACM-ICPC Live Archive 
 
