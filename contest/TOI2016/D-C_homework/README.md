@@ -2,8 +2,8 @@
 
 ACM-ICPC Live Archive 
 
-[2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
-[2052](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=53)
+- [2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
+- [2052](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=53)
 [2323](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=324)
 [2389](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=390)
 [2445](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&Itemid=99999999&category=95&page=show_problem&problem=446)
