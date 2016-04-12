@@ -17,3 +17,4 @@ ACM-ICPC Live Archive
 - [5809](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3820)
 - [6141](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4152)
 - [6370](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4381)
+  Yet Another Multiple Problem
