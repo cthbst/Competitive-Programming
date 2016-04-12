@@ -13,6 +13,7 @@ ACM-ICPC Live Archive
 - [2516](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=517)
 - [3546](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1547)
   Dramatic Multiplications
+  [code](https://github.com/cthbst/ACM/blob/master/LA/3546.cpp)
 - [4063](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2064)
 - [5072](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3073)
 - [5076](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3077)
