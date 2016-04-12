@@ -3,9 +3,12 @@
 ACM-ICPC Live Archive 
 
 - [2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
-- v[2052](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=53)
-- v[2323](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=324)
-- v[2389](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=390)
+- [2052](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=53)
+  Number Steps
+- [2323](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=324)
+   Modular Multiplication of Polynomials
+- [2389](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=390)
+  Palindrom Numbers
 - [2445](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&Itemid=99999999&category=95&page=show_problem&problem=446)
 - [2516](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=517)
 - [3546](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1547)
