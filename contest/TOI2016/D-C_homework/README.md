@@ -3,3 +3,17 @@
 ACM-ICPC Live Archive 
 
 [2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
+[2052](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=53)
+[2323](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=324)
+[2389](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=390)
+[2445](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&Itemid=99999999&category=95&page=show_problem&problem=446)
+[2516](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=517)
+[3546](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1547)
+[4063](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2064)
+[5072](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3073)
+[5076](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3077)
+[5446](https://www.google.com.tw/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#safe=off&q=acm+live+archive+5446)
+[5566](https://www.google.com.tw/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#safe=off&q=acm+live+archive+5566)
+[5809](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3820)
+[6141](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4152)
+[6370](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=4381)
