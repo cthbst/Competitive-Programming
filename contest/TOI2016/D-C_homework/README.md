@@ -1,5 +1,4 @@
-## Divide and Conquer problem 
-### 2016/04/12
+## Divide and Conquer problem (2016/04/12)
 ACM-ICPC Live Archive 
 
 - [2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
