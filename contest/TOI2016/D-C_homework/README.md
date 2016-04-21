@@ -75,6 +75,7 @@ ACM-ICPC Live Archive
 - [2120](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=121)
   The Spiral of Primes
 - [2158](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=159)
+  Factorial[code](https://github.com/cthbst/ACM/blob/master/LA/2158.cpp)
 - [2429](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=430)
 - [3229](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1230)
 - [3346](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1347)
