@@ -79,7 +79,7 @@ ACM-ICPC Live Archive
 - [2429](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=430)
 - [3229](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1230)
 - [3346](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1347)
-  [code](https://github.com/cthbst/ACM/blob/master/LA/3346.cpp)
+  Perfect Domination on Trees[code](https://github.com/cthbst/ACM/blob/master/LA/3346.cpp)
 - [3518](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1519)
 - [3573](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1574)
 - [5104](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3105)
