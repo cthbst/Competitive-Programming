@@ -1,6 +1,10 @@
 ## Divide and Conquer problem 
 ACM-ICPC Live Archive 
 
+###交作業
+
+ - 侯文娟教授 : emilyhou@csie.ntnu.edu.tw
+
 ###(2016/04/12)
 - [2040](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=41)
 - [2052](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=53)
