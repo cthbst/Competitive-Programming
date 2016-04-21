@@ -62,6 +62,7 @@ ACM-ICPC Live Archive
 - [3292](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=1293)
 - [3890](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1891)
 - [4043](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2044)
+  Ants
 - [4235](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=2236)
 - [5102](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3103)
 - [6716](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=630&page=show_problem&problem=4728)
@@ -69,7 +70,9 @@ ACM-ICPC Live Archive
 ###(2016/04/21)
 - [2053](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=54)
 - [2061](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=62)
+  The Triangle Game
 - [2120](https://icpcarchive.ecs.baylor.edu/index.php?option=onlinejudge&page=show_problem&problem=121)
+  The Spiral of Primes
 - [2158](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=159)
 - [2429](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=430)
 - [3229](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1230)
@@ -80,5 +83,6 @@ ACM-ICPC Live Archive
 - [5342](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3343)
 - [5426](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3427)
 - [5432](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3433)
+  Factorial Frequencies
 - [5704](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=3705)
 - [5907](https://icpcarchive.ecs.baylor.edu/index.php?option=com_onlinejudge&Itemid=8&category=544&page=show_problem&problem=3918)
