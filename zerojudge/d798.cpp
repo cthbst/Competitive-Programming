@@ -92,4 +92,3 @@ int main(){
         printf("%d\n",query2D(Seg) ) ;
     }
 }
-

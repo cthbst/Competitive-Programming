@@ -1,23 +1,19 @@
-#include<bits/stdc++.h>
+#include<stdio.h>
+#include<algorithm>
 using namespace std ;
 
-int n ,a[10];
-void dfs(int d ,int S){
-    if (d==n){
-        for (int i=0 ;i<n ;i++ ){
-            printf("%d",a[i]+1) ;
-        }
-        puts("") ;
-        return ;
-    }
-    for (int i=n-1 ;i>=0 ;i-- )if (S&(1<<i)){
-        a[d]=i ;
-        dfs(d+1,S^(1<<i)) ;
-    }
-}
 
 int main(){
-    while (~scanf("%d",&n)){
-        dfs(0,(1<<n)-1) ;
-    }
+	int N ,a[10] ;
+	
+	while (~scanf("%d",&N ) ){
+		for (int i=0 ;i<N ;i++ )a[i]=i ;
+		
+		do {
+			for (int i=0 ;i<N ;i++ )printf("%d",N-a[i]) ;
+			printf("\n") ;
+		}while( next_permutation(a,a+N ) ) ;
+		
+		
+	}
 }

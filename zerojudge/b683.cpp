@@ -18,7 +18,7 @@ void Union(int u, int v ){
         cnt[v]=0 ;
     }
 }
-char G[40][40] ;
+char G[32][32] ;
 
 int encode(int x ,int y ){
     return x*30+y ;
