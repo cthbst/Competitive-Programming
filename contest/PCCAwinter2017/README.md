@@ -18,7 +18,7 @@
 	- cut 可以處理要取或不取的問題
 	- 要時進將節點上的東西移動的問題可以轉成前後歷史的兩接階層流
 - 圖論相關定理
-	-　(一般圖)　max IS + min VC = V
+	- (一般圖)　max IS + min VC = V
 	- (一般圖) | max matching | + | min EC | = |V|
 	- (二分圖) | max mathcing | = | max flow |
 	- (二分圖) | max matching | = | min VC|
