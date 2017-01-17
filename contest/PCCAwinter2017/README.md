@@ -1,7 +1,10 @@
+# 2017 PCCA 寒訓
 - 活動網址
 	- https://sites.google.com/view/nctupcca
+
 - 上課影片
-	-　https://drive.google.com/drive/folders/0B4_aol7uG4_YSEp2Q3dMVVM3WFk
+	- https://drive.google.com/drive/folders/0B4_aol7uG4_YSEp2Q3dMVVM3WFk
+
 # Day1 組合賽局理論
 - Nim SG 
 	- SG(u) = mex{　SG(v)　|　v是u的後繼狀態　}
@@ -13,7 +16,7 @@
 - max flow
 	- |max flow| = |min cut|
 	- cut 可以處理要取或不取的問題
-	-　要時進將節點上的東西移動的問題可以轉成前後歷史的兩接階層流
+	- 要時進將節點上的東西移動的問題可以轉成前後歷史的兩接階層流
 - 圖論相關定理
 	-　(一般圖)　max IS + min VC = V
 	- (一般圖) | max matching | + | min EC | = |V|
