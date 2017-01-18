@@ -28,3 +28,8 @@
 	- 主詞 : Matching, Vertex Cover, Edge Cover, Flow/Cuts
 	- 2^|形容詞|　*　|主詞|　= 32種變型
 	- 穩定婚姻
+
+# Day3 進階DP
+- 有限背包 O(NW)
+- 輪廓線 DP 插頭 DP
+- 四邊型不等式
