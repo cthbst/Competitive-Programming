@@ -1,22 +1,15 @@
-#include <stdio.h>
-#include <string.h>
-
 #include <iostream>
-#include <sstream>
+#include <sstream>  // stringstream
 using namespace std;
 
-typedef long long int LL;
-
-char in[100000];
 int main() {
-    while (cin.getline(in, sizeof(in))) {
-        stringstream s;
-        s << in;
-
-        LL sum = 0, a;
-        while (s >> a) {
-            sum += a;
+    string line;
+    while (getline(cin, line)) {
+        stringstream ss(line);
+        long long sum = 0, x;
+        while (ss >> x) {
+            sum += x;
         }
-        printf("%lld\n", sum);
+        cout << sum << '\n';
     }
 }
