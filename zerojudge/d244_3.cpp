@@ -1,17 +1,18 @@
-#include<stdio.h>
-#include<map>
-using namespace std ;
+#include <stdio.h>
 
-map<int,int> T ;
+#include <map>
+using namespace std;
 
-int main(){
-    int k ;
-    while (~scanf("%d",&k ))T[k]++ ;
+map<int, int> T;
 
-    for (auto it=T.begin() ;it!=T.end() ;it++ ){
-        if (it->second%3!=0){
-            printf("%d\n",it->first) ;
-            break ;
+int main() {
+    int k;
+    while (~scanf("%d", &k)) T[k]++;
+
+    for (auto it = T.begin(); it != T.end(); it++) {
+        if (it->second % 3 != 0) {
+            printf("%d\n", it->first);
+            break;
         }
     }
 }

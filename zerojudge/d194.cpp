@@ -1,36 +1,37 @@
-#include<stdio.h>
-#include<vector>
-#include<set>
-using namespace std ;
+#include <stdio.h>
 
-int main(){
-    int T ,N ;
-    scanf("%d",&T ) ;
+#include <set>
+#include <vector>
+using namespace std;
 
-    while (T-- && scanf("%d",&N ) ){
-        vector<int> a(1000030) ;
-        set<int> S ;
-        for (int i=0;i<N ;i++ ){
-            scanf("%d",&a[i]) ;
+int main() {
+    int T, N;
+    scanf("%d", &T);
+
+    while (T-- && scanf("%d", &N)) {
+        vector<int> a(1000030);
+        set<int> S;
+        for (int i = 0; i < N; i++) {
+            scanf("%d", &a[i]);
         }
 
-        int s=0 ,t=0 ,Ans=0 ;
-        while (t<N ){
-            int l=S.size() ;
-            S.insert(a[t]) ;
-            if (l!=S.size()){
+        int s = 0, t = 0, Ans = 0;
+        while (t < N) {
+            int l = S.size();
+            S.insert(a[t]);
+            if (l != S.size()) {
                 t++;
-                continue ;
+                continue;
             }
-            if (l>Ans)Ans=l ;
-            while (a[s]!=a[t]){
-                S.erase(a[s]) ;
-                s++ ;
+            if (l > Ans) Ans = l;
+            while (a[s] != a[t]) {
+                S.erase(a[s]);
+                s++;
             }
-            s++ ;
-            t++ ;
+            s++;
+            t++;
         }
-        if (S.size()>Ans)Ans=S.size() ;
-        printf("%d\n",Ans ) ;
+        if (S.size() > Ans) Ans = S.size();
+        printf("%d\n", Ans);
     }
 }

@@ -1,26 +1,28 @@
-#include<stdio.h>
-#include<string.h>
-#include<math.h>
-#include<vector>
-using namespace std ;
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
 
-const int maxN=20000001 ;
-bool prime[maxN] ;
-vector<int> S ;
+#include <vector>
+using namespace std;
 
-int main(){
-    //set prime -------------
-    memset(prime,1,sizeof(prime)) ;
-    prime[0]=prime[1]=0 ;
-    for (int i=2 ,D=sqrt(maxN);i<=D ;++i )if (prime[i]){
-        for (int j=i<<1 ;j<maxN ;j+=i)prime[j]=0 ;
+const int maxN = 20000001;
+bool prime[maxN];
+vector<int> S;
+
+int main() {
+    // set prime -------------
+    memset(prime, 1, sizeof(prime));
+    prime[0] = prime[1] = 0;
+    for (int i = 2, D = sqrt(maxN); i <= D; ++i)
+        if (prime[i]) {
+            for (int j = i << 1; j < maxN; j += i) prime[j] = 0;
+        }
+    for (int i = 7; i < maxN; ++i) {
+        if (prime[i] && prime[i - 4]) S.push_back(i);
     }
-    for (int i=7 ;i<maxN;++i){
-        if (prime[i]&&prime[i-4])S.push_back(i) ;
-    }
-    //solve -----------------
-    int N ;
-    while (~scanf("%d",&N )){
-        printf("(%d, %d)\n",S[N-1]-4 ,S[N-1] ) ;
+    // solve -----------------
+    int N;
+    while (~scanf("%d", &N)) {
+        printf("(%d, %d)\n", S[N - 1] - 4, S[N - 1]);
     }
 }

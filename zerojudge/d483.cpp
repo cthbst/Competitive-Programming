@@ -3,9 +3,8 @@
 
 using namespace std;
 
-int main(int argc, char *argv[])
-{
-    cout <<"hello, world" ;
+int main(int argc, char *argv[]) {
+    cout << "hello, world";
 
     return EXIT_SUCCESS;
 }

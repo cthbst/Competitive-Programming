@@ -1,32 +1,34 @@
-#include<stdio.h>
-#include<algorithm>
-using namespace std ;
+#include <stdio.h>
 
-struct str{int s ,h ,w ;};
-bool cmp(str A ,str B){
-    if (A.h!=B.h)return A.h<B.h ;
-    if (A.w!=B.w)return A.w<B.w ;
-    return A.s<B.s ;
+#include <algorithm>
+using namespace std;
+
+struct str {
+    int s, h, w;
+};
+bool cmp(str A, str B) {
+    if (A.h != B.h) return A.h < B.h;
+    if (A.w != B.w) return A.w < B.w;
+    return A.s < B.s;
 }
-str S[10030] ;
-int Abs(int a ){
-    return a>0 ?a:-a ;
+str S[10030];
+int Abs(int a) {
+    return a > 0 ? a : -a;
 }
-int main(){
-    int N ;
-    while (~scanf("%d",&N )){
-        //input -------------
-        for (int i=0 ;i<N ;i++ ){
-            S[i].s=i ;
-            scanf("%d%d",&S[i].h ,&S[i].w ) ;
+int main() {
+    int N;
+    while (~scanf("%d", &N)) {
+        // input -------------
+        for (int i = 0; i < N; i++) {
+            S[i].s = i;
+            scanf("%d%d", &S[i].h, &S[i].w);
         }
-        //count -------------
-        sort(S,S+N,cmp) ;
-        int ans=0 ;
-        for (int i=0 ;i<N ;i++ )
-            ans+=Abs(S[i].s-i) ;
+        // count -------------
+        sort(S, S + N, cmp);
+        int ans = 0;
+        for (int i = 0; i < N; i++) ans += Abs(S[i].s - i);
 
-        //output ------------
-        printf("%d\n",ans) ;
+        // output ------------
+        printf("%d\n", ans);
     }
 }

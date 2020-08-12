@@ -1,22 +1,23 @@
-#include<stdio.h>
-#include<queue>
-#include<algorithm>
-using namespace std ;
+#include <stdio.h>
 
-int main(){
-    priority_queue<int ,vector<int> ,greater<int> > que ;
+#include <algorithm>
+#include <queue>
+using namespace std;
 
-    int N ,M ;
-    scanf("%d%d",&N ,&M ) ;
-    for  (int i=0 ;i<M ;i++ )que.push(0) ;
+int main() {
+    priority_queue<int, vector<int>, greater<int> > que;
 
-    int ans=0 ;
-    for (int i=0 ,wi ;i<N ;i++ ){
-        scanf("%d",&wi ) ;
-        wi+=que.top() ;
-        que.pop() ;
-        ans=max(ans,wi) ;
-        que.push(wi) ;
+    int N, M;
+    scanf("%d%d", &N, &M);
+    for (int i = 0; i < M; i++) que.push(0);
+
+    int ans = 0;
+    for (int i = 0, wi; i < N; i++) {
+        scanf("%d", &wi);
+        wi += que.top();
+        que.pop();
+        ans = max(ans, wi);
+        que.push(wi);
     }
-    printf("%d\n",ans) ;
+    printf("%d\n", ans);
 }

@@ -1,10 +1,10 @@
-#include<iostream>
-using namespace std ;
+#include <iostream>
+using namespace std;
 
-int main(){
-    int d ;
+int main() {
+    int d;
 
-    while (cin >> d){
-        cout << 19600*d+1275 <<endl ;
+    while (cin >> d) {
+        cout << 19600 * d + 1275 << endl;
     }
 }

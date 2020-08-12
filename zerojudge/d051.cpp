@@ -1,13 +1,11 @@
-#include<iostream>
-#include<iomanip>
+#include <iomanip>
+#include <iostream>
 using namespace std;
 
-int main()
-{
-   double a;   
-   while(cin>>a)          
-      {
-      cout << fixed<< setprecision(3) <<(a-32)*5/9<<endl;  
-      }
-   return 0;
+int main() {
+    double a;
+    while (cin >> a) {
+        cout << fixed << setprecision(3) << (a - 32) * 5 / 9 << endl;
+    }
+    return 0;
 }

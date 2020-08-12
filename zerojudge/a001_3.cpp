@@ -3,12 +3,11 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     string in0;
-    while (cin >>in0 ){
-          cout <<"hello, " <<in0 <<endl ; 
+    while (cin >> in0) {
+        cout << "hello, " << in0 << endl;
     }
-    
+
     return EXIT_SUCCESS;
 }
