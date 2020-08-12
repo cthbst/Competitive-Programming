@@ -1,10 +1,7 @@
-#include <cstdlib>
 #include <iostream>
-
 using namespace std;
 
-int main(int argc, char *argv[]) {
+int main() {
     cout << "hello, world";
-
-    return EXIT_SUCCESS;
+    return 0;
 }
