@@ -1,29 +1,29 @@
-#include <stdio.h>
-
-#include <queue>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+    cin.tie(0);
+    cin.sync_with_stdio(0);
+
+    priority_queue<long long, vector<long long>, greater<long long> > pq;
     int n;
-    while (~scanf("%d", &n)) {
-        priority_queue<int, vector<int>, greater<int> > que;
-        int sum = 0;
-        // input------------------------------------------
-        for (int i = 0, input; i < n; i++) {
-            scanf("%d", &input);
-            que.push(input);
-        }
-        // cooking----------------------------------------
-        int ans = 0, s;
-        while (que.size() > 1) {
-            s = que.top();
-            que.pop();
-            s += que.top();
-            que.pop();
-            que.push(s);
-            ans += s;
-        }
-        // output-----------------------------------------
-        printf("%d\n", ans);
+    cin >> n;
+    for (int i = 0; i < n; i++) {
+        long long x;
+        cin >> x;
+        pq.push(x);
     }
+
+    long long ans = 0;
+    while (pq.size() >= 2) {
+        long long x = pq.top();
+        pq.pop();
+        long long y = pq.top();
+        pq.pop();
+        ans += x + y;
+        pq.push(x + y);
+    }
+    cout << ans << '\n';
+
+    return 0;
 }
