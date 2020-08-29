@@ -1,12 +1,14 @@
-#include <cstdlib>
 #include <iostream>
-
 using namespace std;
 
-int main(int argc, char *argv[]) {
-    int in;
-    while (cin >> in) {
-        cout << (in <= 25 ? 25 - in : 85 - in) << endl;
+int main() {
+    int m;
+    while (cin >> m) {
+        if (m <= 25) {
+            cout << 25 - m << '\n';
+        } else {
+            cout << 85 - m << '\n';
+        }
     }
-    return EXIT_SUCCESS;
+    return 0;
 }
