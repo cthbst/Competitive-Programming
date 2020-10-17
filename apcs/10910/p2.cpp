@@ -43,7 +43,7 @@ int main() {
     for (int day = 1; day <= m; day++) {
         for (int i = 1; i <= R; i++) {
             for (int j = 1; j <= C; j++) {
-                if (grids[0][i][j] == 0) continue;
+                if (grids[0][i][j] == -1) continue;
                 grids[day][i][j] = grids[day - 1][i][j];
                 grids[day][i][j] -= grids[day - 1][i][j] / k * deg[i][j];
                 grids[day][i][j] += grids[day - 1][i + 1][j] / k;
@@ -58,6 +58,8 @@ int main() {
     int mi = 1e9, mx = -1e9;
     for (int i = 1; i <= R; i++) {
         for (int j = 1; j <= C; j++) {
+            if (grids[0][i][j] == -1)
+                continue;
             mi = min(mi, grids[m][i][j]);
             mx = max(mx, grids[m][i][j]);
         }
