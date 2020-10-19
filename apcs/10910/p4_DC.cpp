@@ -1,3 +1,4 @@
+// Copyright (C) Algo Seacow. 2020. All Rights Reserved.
 #include <bits/stdc++.h>
 using namespace std;
 
